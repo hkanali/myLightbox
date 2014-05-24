@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 318px;
+  height: 566px;
+  margin-left: -160px;
+  margin-top: -284px;
+  border: solid 1px #000;
+}
+.myLightbox {
+  text-align: center;
+}
+.myLightbox img {
+  border-radius: 5px;
+  border: solid 3px #333;
+  margin-top: 240px;
+}
+.myLightbox img:hover {
+  border: solid 3px #1595ea;
+  border-radius: 5px;
+}
+.col-3 {
+  float: left;
+  width: 33%;
+}

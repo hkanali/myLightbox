@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>myLightbox</title>
+<meta name="description" content="myLightbox">
+<meta name="author" content="kanai haruhiro">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/jquery.myLightbox.css">
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="scripts/jquery.myLightbox.js"></script>
+<script>
+(function($, window, document) {
+  $(function() {
+    // mylightbox
+    $('.myLightbox').myLightbox();
+  });
+}(window.jQuery, window, document));
+</script>
+</head>
+<body>
+
+<div class="container">
+<div class="myLightbox">
+  <div class="col-3">
+    <a href="http://farm3.static.flickr.com/2895/14063602837_b4069bacef.jpg" title="Hazy Sunset" owner="50949097@N00">
+      <img src="http://farm3.static.flickr.com/2895/14063602837_b4069bacef_s.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-3">
+    <a href="http://farm3.static.flickr.com/2918/14063403580_b186b9cf08.jpg" title="Good Gracious Godwit!" owner="56446000@N04">
+      <img src="http://farm3.static.flickr.com/2918/14063403580_b186b9cf08_s.jpg" alt="">
+    </a>
+  </div>
+  <div class="col-3">
+    <a href="http://farm6.static.flickr.com/5559/14249194992_8710d929cf.jpg" title="absolutely free" owner="46732784@N03">
+      <img src="http://farm6.static.flickr.com/5559/14249194992_8710d929cf_s.jpg" alt="">
+    </a>
+  </div>
+</div>
+
+</div><!-- /.container -->
+
+
+</body>
+</html>
